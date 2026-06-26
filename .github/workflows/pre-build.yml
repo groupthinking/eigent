@@ -201,7 +201,7 @@ jobs:
 
       - name: Upload Artifact (macOS)
         if: runner.os == 'macOS'
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: release-${{ matrix.artifact_name }}-${{ matrix.arch }}
           path: |
@@ -214,7 +214,7 @@ jobs:
 
       - name: Upload Artifact (Windows)
         if: runner.os == 'Windows'
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: release-${{ matrix.artifact_name }}-${{ matrix.arch }}
           path: |
@@ -225,7 +225,7 @@ jobs:
 
       - name: Upload Artifact (Linux)
         if: runner.os == 'Linux'
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: release-${{ matrix.artifact_name }}-${{ matrix.arch }}
           path: |
