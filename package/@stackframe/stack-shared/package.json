@@ -54,7 +54,7 @@
     "jose": "^5.2.2",
     "oauth4webapi": "^2.10.3",
     "semver": "^7.6.3",
-    "uuid": "^9.0.1"
+    "uuid": "^14.0.1"
   },
   "devDependencies": {
     "@sentry/nextjs": "^8.40.0",
